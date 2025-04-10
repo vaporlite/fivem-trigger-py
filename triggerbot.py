@@ -474,9 +474,9 @@ class AtillaApp(ctk.CTk):
                     
                     if is_color_match(color, self.colorCode, self.tol):
                         time.sleep(self.delay)
-                        PressKey(0x11)
+                        PressKey(0x34)
                         time.sleep(0.01)
-                        ReleaseKey(0x11)
+                        ReleaseKey(0x34)
             time.sleep(self.check_interval)
     
     def keyboard_handler_toggle(self, e):
